@@ -14,3 +14,12 @@
   border: 0%;
     
 }
+.image{
+  width:48px;
+  height:48px;
+}
+.galactica_main{
+  width: 400px;
+  height: 300px;
+  align-items: center;
+}
