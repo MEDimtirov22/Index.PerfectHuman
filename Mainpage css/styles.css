@@ -64,3 +64,53 @@ background-image: url(./images/background.jpg);
   text-decoration: none;
   font-size: xx-large;
 }
+.starlight {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.starlight h1 {
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  font-family: monospace;
+}
+
+.starlight p {
+  font-style: italic;
+  font-size: 35px;
+  line-height: 1.4;
+  font-family: monospace;
+}
+.button-container {
+  position: fixed;
+  bottom: 280px;
+  right: 400px;
+}
+
+.button {
+  border: 4px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 12px 44px;
+  border-radius: 10px;
+  font-size: 18px; 
+  transform: skewX(-20deg);
+  cursor: pointer;
+  transition: color 0.01s, border-color 0.01s;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.button:hover {
+  color: grey;
+  border-color: grey;
+}
