@@ -1,16 +1,42 @@
-#bgimg{
-    position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
- background-image: url(./images/Background-main.jpg); 
- width: 1920px;
- height: 1080px;
+#body{
+ background-image: url(./images/deep-space-4k-wallpaper-preview.jpg); 
  background-repeat: no-repeat;
+ background-attachment: fixed;
  background-size: cover;
+
+}
+#navbar{
+  width: 1920px;
+  height: 80px;
+  background-color: black;
   padding: 0%;
   margin: 0%;
   border: 0%;
-    
+  position: fixed;
+  top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+#au{
+   color: aliceblue;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+   text-decoration: none;
+   font-size: xx-large;
+
+}
+#cre{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  font-size: xx-large;
+}
+#New{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  font-size: xx-large;
 }
