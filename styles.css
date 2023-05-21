@@ -1,9 +1,8 @@
-#body{
- background-image: url(./images/deep-space-4k-wallpaper-preview.jpg); 
+body{
+background-image: url(./images/background.jpg);
  background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
-
+ background-attachment: fixed; 
+ background-size: 100% 100%;
 }
 #navbar{
   width: 1920px;
