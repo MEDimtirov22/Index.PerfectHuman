@@ -1,39 +1,34 @@
-@font-face {
-  font-family: "Spacetext";
-  src: url(./Fonts/BebasNeue-Regular.ttf);
-}
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
-body{
-background-image: url(./images/background.jpg);
- background-repeat: no-repeat;
- background-attachment: fixed; 
- background-size: 100% 100%;
+body {
+  background-image: url(./images/galaxy-stars.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.navbar {
+
+header {
   background-color: #242424;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.navbar li {
+nav li {
   float: left;
 }
 
-.navbar li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -41,43 +36,21 @@ background-image: url(./images/background.jpg);
   text-decoration: none;
 }
 
-.navbar li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #111;
 }
 
-.navbar .active {
+nav .active {
   background-color: #00384e;
 }
-#au{
-   color: aliceblue;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-style: italic;
-   text-decoration: none;
-   font-size: xx-large;
 
-}
-#cre{
-  color: aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  text-decoration: none;
-  font-size: xx-large;
-}
-#New{
-  color: aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  text-decoration: none;
-  font-size: xx-large;
-}
 .starlight {
-  position: fixed;
-  top: 45%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-family: monospace;
 }
 
 .starlight h1 {
@@ -85,20 +58,19 @@ background-image: url(./images/background.jpg);
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 16px;
-  font-family: monospace;
 }
 
 .starlight p {
   font-style: italic;
   font-size: 35px;
   line-height: 1.4;
-  font-family: monospace;
-  font-family: space;
 }
+
 .button-container {
-  position: fixed;
-  bottom: 180px;
-  right: 200px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .button {
@@ -107,7 +79,7 @@ background-image: url(./images/background.jpg);
   color: white;
   padding: 12px 44px;
   border-radius: 10px;
-  font-size: 18px; 
+  font-size: 18px;
   transform: skewX(-20deg);
   cursor: pointer;
   transition: color 0.01s, border-color 0.01s;
@@ -120,4 +92,18 @@ background-image: url(./images/background.jpg);
 .button:hover {
   color: grey;
   border-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .starlight h1 {
+      font-size: 36px;
+  }
+
+  .starlight p {
+      font-size: 24px;
+  }
+
+  .button-container {
+      bottom: 20%;
+  }
 }
