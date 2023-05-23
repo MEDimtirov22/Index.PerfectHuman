@@ -110,14 +110,18 @@ header {
   font-size: 1.3em;
   padding: 0vh 4vh 4vh 4vh;
 }
-#buttonus{
+.buttonus{
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: white;
+  font-weight: 1000;
   transition:0.5s;
+  display: block;
+  margin-top: 5vh;
 }
-#buttonus:hover{
+.buttonus:hover{
   text-decoration: none;
   color: rgb(138, 138, 138);
   transition:0.5s;
+  font-weight: 1000;
 }
