@@ -4,10 +4,10 @@
 }
 
 body {
-  background-image: url(./images/galaxy-stars.gif);
+  background-image: url(./images/space\ takova.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size:cover;
 }
 
 header {
@@ -32,7 +32,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 

@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            .pixelFont{
+                font-family: vcr osd mono;
+            }
+            .navbarus{
+                font-size: 1.7em;
+            }
+            .welcome {
+                margin: 25vh auto;
+                text-align: center;
+                padding-bottom: 2em;
+                font-size: 1.5em;
+                color: rgb(255, 255, 255);
+                width: 40vw;
+                
+                background-color: rgba(124, 121, 121, 0);
+                border-radius: 6%;
+            }
+            .welcome h1{
+                padding: 8vh 4vh 2vh 4vh;
+                font-size: 2em;
+                font: bold;
+            }
+            .welcome p{
+                font-size: 1.3em;
+                padding: 0vh 4vh 4vh 4vh;
+            }
+
+        </style>
         <link rel="icon" type="image/x-icon" href="./images/—Pngtree—star logo design_3651177.png" id>
         <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>StarMist</title>
+        <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar">
-            <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="./Main page html/News.html">News</a></li>
-                <li><a href="./Main page html/Credits.html">Credits</a></li>
-                <li><a href="./Main page html/Aboutus.html">About us</a></li>
-            </ul>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class="navbarus pixelFont">Home</a></li>
+                    <li><a href="main page html/Aboutus.html" class="navbarus pixelFont">About Us</a></li>
+                    <li><a href="main page html/Credits.html" class="navbarus pixelFont">Credits</a></li>
+                    <li><a href="main page html/News.html" class="navbarus pixelFont">News</a></li>
+                    <li><a href="Product page/Prodpage.html" class="navbarus pixelFont">Product Page</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class="starlight">
-            <h1><b>StarMist</b></h1>
-            <p><b>
-                Space project that ensures the future<br>
-                of science and physics by discovering<br>
-                more and more of the galactic
-            </b></p>
+        <div class="welcome pixelFont">
+            <h1>StarMist</h1>
+            <p>Space project that ensures the future of science and physics by discovering more and more of the galactic</p>
         </div>
-            <div class="button-container">
-                <a href="./Product page/Prodpage.html" class="button-link">
-                  <button class="button">Continue</button>
-                </a>
-              </div>
     </body>
 </html>
