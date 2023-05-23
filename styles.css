@@ -16,34 +16,6 @@ header {
   top: 0;
   width: 100%;
 }
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 20px;
-  text-decoration: none;
-}
-
-nav li a:hover:not(.active) {
-  background-color: #111;
-}
-
-nav .active {
-  background-color: #00384e;
-}
-
 .starlight {
   position: absolute;
   top: 50%;
