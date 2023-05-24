@@ -93,7 +93,7 @@ header {
   font-size: 1.7em;
 }
 .welcome {
-  margin: 25vh auto;
+  margin: 15vw auto;
   text-align: center;
   padding-bottom: 2em;
   font-size: 1.5em;
@@ -124,4 +124,33 @@ header {
   color: rgb(138, 138, 138);
   transition:0.5s;
   font-weight: 1000;
+}
+.ani2{
+  animation: trans2 3s linear ;
+}
+.ani1{
+  animation: trans1 3s linear;
+}
+.ani3{
+  animation: trans2 3s linear;
+}
+@keyframes trans1 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes trans2 {
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
