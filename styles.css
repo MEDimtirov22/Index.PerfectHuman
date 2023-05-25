@@ -8,7 +8,7 @@ a{
   color: white;
 }
 body {
-  background-image: url(./images/space\ takova.gif);
+  background-image: url(/images/spacetakova.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -62,7 +62,10 @@ header {
   cursor: pointer;
   transition: color 0.01s, border-color 0.01s;
 }
-
+.colorW{
+  text-decoration: none;
+  color: white;
+}
 .button-link {
   text-decoration: none;
 }
@@ -157,7 +160,7 @@ header {
 /*about us*/
 .card {
   width: 100%;
-  height: 50vh;
+  height: auto;
   margin-bottom: 40px;
   padding: 35px;
   border: 1px solid #ccc;
