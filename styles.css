@@ -154,3 +154,44 @@ header {
     opacity: 1;
   }
 }
+/*about us*/
+.card {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 40px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.formus{
+  width: 50%;
+  margin: 40px auto;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color:white;
+}
+.formus input  {
+  width: 90%;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+  }
+  .card {
+    width: 100%;
+  }
+}
