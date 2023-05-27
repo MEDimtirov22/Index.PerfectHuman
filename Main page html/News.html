@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--Dont edit the page preset-->
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="icon" type="image/x-icon" href="/images/—Pngtree—star logo design_3651177.png" id>
@@ -11,6 +11,60 @@
         <video autoplay muted loop class="backgroundAll">
             <source src="/images/mylivewallpapers.com-Stars-Space.mp4" type="video/mp4">
         </video>
+        <style>
+            .news-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            .news-box {
+                width: 100%;
+                border: 10px solid #000;
+                margin-bottom: 100px;
+                padding: 50px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                position: relative;
+            }
+
+            .news-image {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .news-date {
+                position: absolute;
+                bottom: -30px;
+                right: 5%;
+                transform: translateX(50%);
+                background-color: #000;
+                padding: 5px 10px;
+                font-size: 12px;
+                color: #ffffff;
+            }
+
+            .novini {
+                color: white;
+            }
+
+            @media (max-width: 767px) {
+                .news-box {
+                    padding: 20px;
+                }
+                .news-date {
+                    position: static;
+                    transform: none;
+                    margin-top: 10px;
+                }
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-inverse">
@@ -24,5 +78,27 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="news-container">
+            <div class="news-box">
+                <img src="../images/galaxy-stars.gif" alt="News Image" class="news-image">
+                <h3 class="novini">Starmist</h3>
+                <p class="novini">Starmist has officially started its journey! It is heading to Europa at the speed of 90 km/s.</p>
+                <span class="news-date">20.04.2069</span>
+            </div>
+            <div class="news-box">
+                <img src="../images/background.jpg" alt="News Image" class="news-image">
+                <h3 class="novini">Starmist Build</h3>
+                <p class="novini">Starmist is on its way to space. It is currently being built...</p>
+                <span class="news-date">06.09.2052</span>
+            </div>
+            <div class="news-box">
+                <img src="../images/busssss.gif" alt="News Image" class="news-image">
+                <h3 class="novini">Crackfers Organization</h3>
+                <p class="novini">Crackfers organization has successfully started its journey to the stars and beyond.</p>
+                <span class="news-date">12.06.2049</span>
+            </div>
+            <!-- Add more news boxes here -->
+        </div>
     </body>
 </html>
