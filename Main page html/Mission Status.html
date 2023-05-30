@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/—Pngtree—star logo design_3651177.png" id>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>StarMist</title>
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+    <video autoplay muted loop class="backgroundAll">
+        <source src="/images/mylivewallpapers.com-Stars-Space.mp4" type="video/mp4">
+    </video>
+    <style>
+        .credit-box {
+            height: 200px;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .credit-box img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .credit-frame {
+            border: 7px solid #000;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            z-index: 1; /* Ensures the frame is on top */
+            position: relative; /* Adds positioning context for z-index */
+        }
+        .title {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #fff;
+            position: relative; /* Adds positioning context for z-index */
+            z-index: 2; /* Ensures the title is on top */
+        }
+        @media (max-width: 992px) {
+            .credit-box {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 767px) {
+            .credit-box {
+                width: calc(100% - 20px);
+            }
+        }
+        .creditTable{
+            margin-top: 10vw;
+        }
+        .creditTable td{
+            text-align: center;
+            vertical-align: middle !important;
+            font-size: 2em
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a href="/index.html" class="navbarus pixelFont">Home</a></li>
+            <li><a a href="/Main page html/News.html" class="navbarus pixelFont">News</a></li>
+            <li><a href="/OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
+            <li class="active"><a href="/Main page html/Mission Status.html"class="navbarus pixelFont">Mission Status</a></li>
+            <li><a href="/Main page html/Credits.html" class="navbarus pixelFont">Credits</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container" style="z-index: 2;position: relative;">           
+    <table class="table table-bordered pixelFont colorW creditTable align-middle">
+      <tbody>
+        <tr>
+            <td >Launch Date</td>
+            <td>3/10/2019</td>
+        </tr>
+        <tr>
+            <td>Mission Elapsed Time</td>
+            <td>INSERT JS HOW MUCH TIME PASSED IN SECS</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Distance from Earth</td>
+            <td> INSERT JS DISTANCE FROM EARTH IN KM</td><!-- it flyes at a speed of 90km/s-->
+        </tr>
+        <tr>
+            <!---->
+            <td> INSERT JS DISTANCE FROM EARTH IN AU</td><!--BTW 1 AU is 150 million kilometers-->
+        </tr>
+        <tr>
+            <td rowspan="2">Velocity with respect to the Sun</td>
+            <td> INSERT JS DISTANCE FROM EARTH IN KM -minus- 4.545 billion km aka radius of solar system</td>
+        </tr>
+        <tr>
+            <!---->
+            <td> INSERT JS DISTANCE FROM EARTH IN AU -minus- 4.545 billion km aka radius of solar system</td><!--BTW 1 AU is 150 million kilometers-->
+        </tr>
+        <tr>
+            <td>One-Way Light Time</td>
+            <td>JS DISTANSE FORM EARTH /divide/ 299792458m/ s</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
