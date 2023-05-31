@@ -70,6 +70,7 @@ body {
   transition:0.5s;
   font-weight: 1000;
 }
+
 .ani2{
   animation: trans2 3s linear ;
 }
@@ -79,7 +80,7 @@ body {
 .ani3{
   animation: trans2 3s linear;
 }
-@keyframes trans1 {
+@keyframes trans1 { /*animation*/
   0%{
     opacity: 0;
   }
@@ -88,7 +89,7 @@ body {
   }
 }
 
-@keyframes trans2 {
+@keyframes trans2 { /*animation*/
   0%{
     opacity: 0;
   }
@@ -149,6 +150,16 @@ body {
   width: 100%;
   border-radius: 5px;
   text-align: center;
+}
+/*Mission Status*/
+.creditTable{
+  margin-top: 10vw;
+  margin-bottom: 1.3em;
+}
+.creditTable td{
+  text-align: center;
+  vertical-align: middle !important; /*important is used to override bootstraps code since its more powefull for some reason*/
+  font-size: 2em
 }
 
 
