@@ -1,3 +1,4 @@
+/*all page code*/
 * {
   margin: 0;
   padding: 0;
@@ -25,77 +26,17 @@ body {
   background-size:cover;
   font-family: pixelFont;
 }
-
-header {
-  background-color: #242424;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.starlight {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-.starlight h1 {
-  font-style: italic;
-  font-size: 48px;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-
-.starlight p {
-  font-style: italic;
-  font-size: 35px;
-  line-height: 1.4;
-}
-
-.button-container {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
 .colorW{
   text-decoration: none;
   color: white;
 }
-.button-link {
-  text-decoration: none;
-}
-
-.button:hover {
-  color: grey;
-  border-color: grey;
-}
-
-@media only screen and (max-width: 600px) {
-  .starlight h1 {
-      font-size: 36px;
-  }
-
-  .starlight p {
-      font-size: 24px;
-  }
-
-  .button-container {
-      bottom: 20%;
-  }
-}
-/*all page code*/
 .pixelFont{
   font-family: vcr osd mono;
 }
 .navbarus{
   font-size: 1.7em;
 }
+/*Main Page*/
 .welcome {
   margin: 15vw auto;
   text-align: center;
@@ -158,8 +99,8 @@ header {
     opacity: 1;
   }
 }
-/*about us*/
-.cardAU {
+/*Credits*/
+.cardC {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
@@ -168,7 +109,7 @@ header {
   border-radius: 5px;
   text-align: center;
 }
-.cardAU img {
+.cardC img {
   width: 100%;
   height: auto;
   border-radius: 10px;
@@ -188,18 +129,7 @@ header {
   width: 90%;
   color: black;
 }
-/*
-@media (max-width: 767px) {
-  .card-container {
-    flex-direction: column;
-    align-items: stretch;
-    height: auto;
-  }
-  .card {
-    width: 100%;
-  }
-}*/
-/*Products*/
+/*Our mission*/
 .cardP1-1{
   width: 100%;
   border-radius: 10px;
