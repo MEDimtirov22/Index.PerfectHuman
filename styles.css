@@ -103,7 +103,7 @@ body {
 /*Credits*/
 .cardC {
   width: 100%;
-  height: auto;
+  height: 30em;
   margin-bottom: 40px;
   padding: 35px;
   border: 1px solid #ccc;
@@ -154,13 +154,14 @@ body {
 /*Mission Status*/
 .creditTable{
   margin-top: 10vw;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.5em;
 }
 .creditTable td{
   text-align: center;
   vertical-align: middle !important; /*important is used to override bootstraps code since its more powefull for some reason*/
   font-size: 2em
 }
+
 
 
 
