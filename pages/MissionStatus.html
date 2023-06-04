@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="/images/StarMist.png">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/StarMist.png">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../script/timeCounter.js"></script>
+    <script src="../script/distanceInKm.js"></script>
     <title>StarMist</title>
     <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
 </head>
 
-<body>
+<body onload="timeCount();">
 
     <video autoplay muted loop class="backgroundAll"> <!--Background-->
-        <source src="/images/Background.mp4" type="video/mp4">
+        <source src="../assets/images/Background.mp4" type="video/mp4">
     </video>
 
     
@@ -22,7 +24,7 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
-            <li><a href="/index.html" class="navbarus pixelFont">Home</a></li>
+            <li><a href="../index.html" class="navbarus pixelFont">Home</a></li>
             <li><a href="News.html" class="navbarus pixelFont">News</a></li>
             <li><a href="OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
             <li class="active"><a class="navbarus pixelFont">Mission Status</a></li>
@@ -40,15 +42,17 @@
         </tr>
         <tr>
             <td>Mission Elapsed Time</td>
-            <td>INSERT JS HOW MUCH TIME PASSED IN SECS</td>
+            <!--JS HOW MUCH TIME PASSED IN SECS-->
+            <td> <div id="clock"></div></td>
         </tr>
         <tr>
             <td rowspan="2">Distance from Earth</td>
-            <td> INSERT JS DISTANCE FROM EARTH IN KM</td><!-- it flyes at a speed of 90km/s-->
+            <!--JS DISTANCE FROM EARTH IN KM-->
+            <td> <div id="distance"></div></td><!--it flyes at a speed of 90km/s-->
         </tr>
         <tr>
-            <!---->
-            <td> INSERT JS DISTANCE FROM EARTH IN AU</td><!--BTW 1 AU is 150 million kilometers-->
+            <!--JS DISTANCE FROM EARTH IN AU-->
+            <td> </td><!--1 AU is 150 million kilometers-->
         </tr>
         <tr>
             <td>Velocity with respect to the Sun</td>
