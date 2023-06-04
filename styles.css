@@ -130,6 +130,76 @@ body {
   width: 90%;
   color: black;
 }
+.aniC1{
+  animation: trans3 1s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.aniC2{
+  animation: trans3 1.5s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.aniC3{
+  animation: trans3 2s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.aniC4{
+  animation: trans3 2.5s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.aniC5{
+  animation: trans3 3s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 /*Our mission*/
 .cardP1-1{
   width: 100%;
@@ -153,14 +223,32 @@ body {
 }
 /*Mission Status*/
 .creditTable{
+  
   margin-top: 10vw;
   margin-bottom: 1.5em;
+  
 }
 .creditTable td{
+  
   text-align: center;
   vertical-align: middle !important; /*important is used to override bootstraps code since its more powefull for some reason*/
   font-size: 2em
 }
+.ani4{
+  animation: trans3 1.5s linear;
+}
+@keyframes trans3 { /*animation*/
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 /*news*/
 .date {
   border: 1px solid #ccc;
@@ -171,6 +259,7 @@ body {
   border-radius: 5px ; 
   text-align: center;
 }
+
 
 
 
