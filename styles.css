@@ -161,6 +161,16 @@ body {
   vertical-align: middle !important; /*important is used to override bootstraps code since its more powefull for some reason*/
   font-size: 2em
 }
+/*news*/
+.date {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.news {
+  border: 1px solid #ccc;
+  border-radius: 5px ; 
+  text-align: center;
+}
 
 
 
