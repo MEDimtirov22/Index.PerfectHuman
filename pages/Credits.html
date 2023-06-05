@@ -3,7 +3,6 @@
     <head> <!--please only edit the images-->
       <meta charset="UTF-8">
       <link rel="icon" type="image/x-icon" href="../assets/images/StarMist.png">
-      <link rel="stylesheet" href="../styles/styles.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -12,7 +11,7 @@
       <video autoplay muted loop class="backgroundAll">
         <source src="../assets/images/mylivewallpapers.com-Stars-Space.mp4" type="video/mp4">
       </video>
-
+      <link rel="stylesheet" href="../styles/styles.css">
     </head>
 
     <body>
@@ -21,17 +20,24 @@
         <source src="../assets/images/Background.mp4" type="video/mp4">
       </video>
 
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                  <li><a href="../index.html" class="navbarus pixelFont">Home</a></li>
-                  <li><a href="News.html" class="navbarus pixelFont">News</a></li>
-                  <li><a href="OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
-                  <li><a href="MissionStatus.html" class="navbarus pixelFont">Mission Status</a></li>
-                  <li class="active"><a class="navbarus pixelFont">Credits</a></li>
-                </ul>
-            </div>
-        </nav>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div>
+            <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+             <li><a href="../index.html" class="navbarus pixelFont">Home</a></li>
+             <li><a href="News.html" class="navbarus pixelFont">News</a></li>
+             <li><a href="OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
+             <li><a href="MissionStatus.html" class="navbarus pixelFont">Mission Status</a></li>
+             <li class="active"><a class="navbarus pixelFont">Credits</a></li>
+          </ul>
+        </div>
+    </div>
         <div class="container" style="margin-top: 10vw;">
           <div class="row card-container"> <!-- all images must be the exact same size -->
             <div class="col-xs-12 col-sm-6 col-md-3">

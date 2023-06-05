@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="../assets/images/StarMist.png">
-    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -11,6 +10,7 @@
     <script src="../script/distanceInKm.js"></script>
     <title>StarMist</title>
     <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body onload="timeCount();">
@@ -21,17 +21,24 @@
 
     
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <ul class="nav navbar-nav">
-            <li><a href="../index.html" class="navbarus pixelFont">Home</a></li>
-            <li><a href="News.html" class="navbarus pixelFont">News</a></li>
-            <li><a href="OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
-            <li class="active"><a class="navbarus pixelFont">Mission Status</a></li>
-            <li><a href="Credits.html" class="navbarus pixelFont">Credits</a></li>
-        </ul>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div>
+            <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+             <li><a href="../index.html" class="navbarus pixelFont">Home</a></li>
+             <li><a href="News.html" class="navbarus pixelFont">News</a></li>
+             <li><a href="OurMission.html" class="navbarus pixelFont">Our Mission</a></li>
+             <li class="active"><a class="navbarus pixelFont">Mission Status</a></li>
+             <li><a href="Credits.html" class="navbarus pixelFont">Credits</a></li>
+          </ul>
+        </div>
     </div>
-</nav>
 
 <div class="container" style="z-index: 2;position: relative;">         
     <table class="table table-bordered table-rounded pixelFont colorW creditTable align-middle ani4">
