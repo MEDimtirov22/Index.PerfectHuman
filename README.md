@@ -6,10 +6,10 @@ Front-end dev Simeon Vangelov.
 
 Front-end dev Kristian Dimitrov.
 
-Scrumtrainer Martin Dimtirov.
+Scrumtrainer Martin Dimitrov.
 
 Designer Nikolai Kalashnik.
 
-Gabriel Dimitrov mentor.
+Gabriel Dimitrov Mentor.
 
 # http://projectpgkpi.eu3.biz/index.html
