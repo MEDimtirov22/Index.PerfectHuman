@@ -24,7 +24,7 @@
   }
   .navbar-nav {
       float: none!important;
-      margin-top: 2.5em;
+      margin-top: 3em !important;
   }
   .navbar-nav>li {
       float: none;
@@ -35,11 +35,23 @@
   }
   .collapse.in{
       display:block !important;
+      margin-bottom: 3em;
   }
   .nav{
-      font-size: 1.2em !important;
+      font-size: 2em !important;
+  }
+  .navbar-toggle{
+    padding: 1.5em;
+  }
+  .icon-bar{
+    padding-left: 2em !important;
+    padding-bottom: 0.2em !important;
+  }
+  .nav a{
+    margin-bottom: 0.2em;
   }
 }
+
 a{
   text-decoration: none;
   color: white;
@@ -73,7 +85,7 @@ body {
 
 /*Main Page*/
 .welcome {
-  margin-top: 14em;
+  margin-top: 30vh;
   text-align: center;
   padding-bottom: 2em;
   font-size: 1.5em;
@@ -89,6 +101,11 @@ body {
 .welcome p{
   font-size: 1.3em;
   padding: 0vh 4vh 4vh 4vh;
+}
+@media (max-width: 1199px) {
+  .welcome{
+    margin-top: 45vh;
+  }
 }
 .buttonus{
   text-decoration: none;
@@ -161,9 +178,28 @@ body {
   text-align: center;
   color:white;
 }
+.Cname{
+  font-size: 2em;
+}
+.Crole{
+  font-size: 1.5em;
+}
+.Cclass{
+  font-size: 1.3em;
+}
 @media (max-width: 1199px) {
   .formus{
     width: 75%;
+    font-size: 2em;
+  }
+  .Cname{
+    font-size: 2.5em;
+  }
+  .Crole{
+    font-size: 2em;
+  }
+  .Cclass{
+    font-size: 1.8em;
   }
 }
 .formus input  {
