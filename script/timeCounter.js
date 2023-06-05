@@ -10,13 +10,14 @@ function updateCounter() {
 	const timeDiff = currentTime.getTime() - eventDate.getTime();
 
 	// Calculate the days, hours, minutes, and seconds
-	const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+	const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 356));
+	const days = Math.floor(timeDiff % (1000 * 60 * 60 * 24 * 356) / (1000 * 60 * 60 * 24));
 	const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 	const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
 	const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
 	// Display the counter values
-	document.getElementById("clock").innerHTML = (`Days: ${days}, Hours: ${hours}, Minutes: ${minutes}, Seconds: ${seconds}`);
+	document.getElementById("clock").innerHTML = (`Years: ${years}, Days: ${days}, Hours: ${hours}, Minutes: ${minutes}, Seconds: ${seconds}`);
 }
 
 // Update the counter every second
