@@ -187,7 +187,7 @@ body {
 .Cclass{
   font-size: 1.3em;
 }
-@media (max-width: 1199px) {
+@media (max-width: 990px) {
   .formus{
     width: 75%;
     font-size: 2em;
