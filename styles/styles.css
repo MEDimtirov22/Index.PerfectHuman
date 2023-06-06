@@ -104,7 +104,7 @@ body {
 }
 @media (max-width: 1199px) {
   .welcome{
-    margin-top: 38vh;
+    margin-top: 36vh;
   }
 }
 .buttonus{
@@ -277,6 +277,21 @@ body {
   }
 }
 /*Our mission*/
+.scrollSpyI {
+	opacity: 0;
+	transition: all 1s;
+	transition-delay: 0.5s;
+}
+.scrollSpyT {
+	opacity: 0;
+	transition: all 1s;
+	transition-delay: 0.5s;
+}
+.animate {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
 .cardP1-1{
   width: 100%;
   border-radius: 10px;
