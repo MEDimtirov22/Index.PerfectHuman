@@ -279,13 +279,13 @@ body {
 /*Our mission*/
 .scrollSpyI {
 	opacity: 0;
-	transition: all 1s;
-	transition-delay: 0.5s;
+	transition: all 0.5s;
+	transition-delay: 0s;
 }
 .scrollSpyT {
 	opacity: 0;
-	transition: all 1s;
-	transition-delay: 0.5s;
+	transition: all 0.5s;
+	transition-delay: 0s;
 }
 .animate {
 	opacity: 1;
